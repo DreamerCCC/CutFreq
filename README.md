@@ -8,10 +8,14 @@ We propose the frequency-band normalized $\mathcal{L}_1$ distance (FBND) to meas
 
 $\mathcal{{FBND}}=\frac{1}{{n}} \sum_{i}^{n}\left\|\Psi^{t} \circ f\left(x_{i}\right)-\Psi^{t} \circ J\left(x_{i}\right)\right\|_{1}, t \in LL,HL,LH,HH.$
 
-![alg-FBND](./figures/algorithm-fbnd.png){:height="50%" width="50%"}
+<div align="left">
+	<img src="./figures/algorithm-fbnd.png" alt="Editor" width="350">
+</div>
 
 Trend of frequency convergence for reconstruction models across various task datasets.
-![FBND](./figures/fbnd-preliminary-experiments.png)
+<div align="left">
+	<img src="./figures/fbnd-preliminary-experiments.png" alt="Editor" width="1000">
+</div>
 
 ### 2. Frequency patterns of different tasks
 
@@ -23,8 +27,9 @@ Compare the frequency difference between the degraded image and the real image, 
 ```shell
 python analysis/freq-gen.py
 ```
-![Frequency Pattern](./figures/frequency-pattern.png){:height="70%" width="70%"}
-
+<div align="left">
+	<img src="./figures/frequency-pattern.png" alt="Editor" width="450">
+</div>
 
 ## CutFreq Algorithm
 The data augmentation methods involved in the paper can be found in `dataset_utils.py`.
